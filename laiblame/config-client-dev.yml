@@ -8,3 +8,10 @@ management:
   endpoint:
     health:
       show-details: always
+# rabbitMQ 配置
+spring:
+  rabbitmq:
+    host: 192.168.56.128
+    port: 5672
+    username: guest
+    password: guest
