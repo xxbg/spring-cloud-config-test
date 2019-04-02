@@ -1,0 +1,10 @@
+version: config-server-v0.0.3
+# 健康检查
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
