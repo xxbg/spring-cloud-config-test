@@ -15,3 +15,8 @@ spring:
     port: 5672
     username: guest
     password: guest
+  cloud:
+    bus:
+      enabled: true # 开启配置自动刷新
+      trace:
+        enabled: true
